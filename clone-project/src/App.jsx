@@ -24,6 +24,14 @@ function App() {
       </div>
     </nav>
     {/* navbar ends here */}
+
+    {/* image section starts */}
+    <header className="w-full h-auto">
+      <img className='w-full hidden md:block' src="https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/0c3b21ac-3c19-4fd0-b49b-dcdd0ce03e1c.webp" alt="" />
+      <img className='w-full md:hidden' src="https://pwskills.com/images/pwskills_thumbnail.png" alt="" />
+
+    </header>
+    {/* image section over here */}
     </>
   )
 }
