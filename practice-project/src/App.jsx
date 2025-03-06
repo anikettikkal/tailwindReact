@@ -1,6 +1,7 @@
 import React from 'react'
 import Card from './Components/Card/Card'
 import Button from './Components/Button/Button'
+import ResponsiveCard from './Components/Responsive/ResponsiveCard'
 import './App.css'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
 
       <Card />
       <Button />
+      <ResponsiveCard />
     </>
   )
 }
