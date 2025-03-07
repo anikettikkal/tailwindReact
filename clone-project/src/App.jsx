@@ -1,6 +1,5 @@
 import React from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 
 function App() {
@@ -17,7 +16,7 @@ function App() {
           <li className='mx-[10px] cursor-pointer'>About-Us</li>
           <li className='mx-[10px] cursor-pointer'>Contact-Us</li>
         </ul>
-        <div className='hidden md:block px-2 py2 bg-indigo-700 text-white rounded
+        <div className='hidden md:block px-2 py-2 bg-indigo-700 text-white rounded
       font-bold cursor-pointer'>Login/Signup</div>
         <div className='md:hidden'>
           <a className='text-4xl' href="#">&#8801;</a>
@@ -104,6 +103,44 @@ function App() {
       {/* our product section ends here */}
 
       {/* footer starts here */}
+      <footer className="w-full bg-gray-900 px-4 text-white pt-8 flex flex-col md:flex-row flex-wrap justify-between md:px-12">
+          <div>
+            <img className='w-25 h-20' src="https://yt3.googleusercontent.com/vPO-KrUjA2FAdHKrXaW-tz5RAzkMRg697pVh55j2oPjN2EEyvJkhrMUxNEKq_IAwgGJzX405=s900-c-k-c0x00ffffff-no-rj" alt="" />
+            <p className='my-4'>Email us: support@pwskills.com</p>
+            <img className='w-25 h-25' src="https://thumbs.dreamstime.com/b/iso-health-safety-certification-stamp-flat-style-iso-health-safety-certification-stamp-flat-style-simple-design-251469208.jpg" alt="" />
+          </div>
+          <div>
+            <h2 className='font-bold text-xl mt-4'>PW Skills</h2>
+            <div className='w-22 h-1 border-b-2 border-yellow-400 rounded-2xl'></div>
+            <div>
+              <p>About Us</p>
+              <p>FAQs</p>
+              <p>Privacy Policy</p>
+            </div>
+          </div>
+
+          <div>
+            <h2 className='font-bold text-xl mt-4'> Products</h2>
+            <div className='w-22 h-1 border-b-2 border-yellow-400 rounded-2xl'></div>
+            <div>
+              <p>PW Skills Lab</p>
+              <p>Job Portals</p>
+              <p>Experience Portal</p>
+              <p>Become an Affiliate</p>
+              <p>Hall of Fame</p>
+            </div>
+          </div>
+
+          <div>
+            <h2 className='font-bold text-xl mt-4'>Links</h2>
+            <div className='w-22 h-1 border-b-2 border-yellow-400 rounded-2xl'></div>
+            <div>
+              <p>Discord Channel</p>
+              <p>PW Youtube</p>
+              <p>Careers</p>
+            </div>
+          </div>
+      </footer>
       {/* footer ends here */}
 
     </>
