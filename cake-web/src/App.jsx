@@ -66,10 +66,59 @@ function App() {
           <img className='w-[130px]' src="https://www.fnp.com/assets/images/custom/cakes_23/10_Topicon_SameDay_.jpg" alt="" />
           <p className='mt-3 font-medium'>Get Same Day</p>
         </div>
-        
+
       </div>
 
       {/* landingpage ends here */}
+
+      {/* main image in landingpage */}
+      <div>
+        <img className='w-full mt-12' src="https://www.fnp.com/assets/images/custom/cakes_23/Cakes-Microsite-Banner_Web2-28-11-24.jpg" alt="" />
+      </div>
+      <div className='text-center items-center pb-7'>
+        <h1 className='text-3xl mt-10 font-bold'>Cakes: Fresh & Flavourful</h1>
+        <button className='bg-green-700 mt-2 rounded h-[30px] text-white font-bold w-[80px]'>4.8 ⭐</button>
+      </div>
+      {/* main image in landingpage ends here*/}
+
+      {/* cards in landing page starts */}
+
+      <div className='w-[95%] rounded-2xl  flex mr-auto ml-auto pb-15 bg-white'>
+        <div className='flex w-[90%] bg-white h-auto pt-12 ml-auto mr-auto items-center justify-between'>
+          <div>
+            <img className='rounded-2xl' src="https://www.fnp.com/assets/images/custom/cakes_23/cakes_delivery/Same-Day_Web.jpg" alt="" />
+          </div> &nbsp; &nbsp;&nbsp;&nbsp;
+          <div>
+            <img className='rounded-2xl' src="https://www.fnp.com/assets/images/custom/cakes_23/cakes_delivery/Bestseller_Web.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      {/* cards in landing page ends here */}
+
+      {/* cake selling  cards starts here */}
+      <div className='w-[95%] rounded-2xl mt-12 pb-10 shadow-2xl flex justify-between mr-auto ml-auto text-center items-center bg-white'>
+        <div className='mt-12 mr-auto ml-auto'>
+          <img className='rounded overflow-hidden w-[300px]' src="https://www.fnp.com/assets/images/custom/cakes_23/flavour/Chocolate-Cakes-web_2.jpg" alt="" />
+          <p className='font-bold text-xl mt-3'>Chocolate Cakes</p>
+        </div>
+        <div className='mt-12 mr-auto ml-auto'>
+          <img className='rounded overflow-hidden w-[300px]' src="https://www.fnp.com/assets/images/custom/cakes_23/flavour/Truffle-Cakes_web.jpg" alt="" />
+          <p className='font-bold text-xl mt-3'>Truffle Cakes</p>
+        </div>
+        <div className='mt-12 mr-auto ml-auto'>
+          <img className='rounded overflow-hidden w-[300px]' src="https://www.fnp.com/assets/images/custom/cakes_23/flavour/Fresh-Fruit-Cakes_web.jpg" alt="" />
+          <p className='font-bold text-xl mt-3'>Fresh Fruit Cakes</p>
+        </div>
+        <div className='mt-12 mr-auto ml-auto'>
+          <img className='rounded overflow-hidden w-[300px]' src="https://www.fnp.com/assets/images/custom/cakes_23/flavour/Butterscotch-Cakes_web.jpg" alt="" />
+          <p className='font-bold text-xl mt-3'>ButterScotch Cakes</p>
+        </div>
+        
+      </div>
+      {/* cake selling  cards ends here */}
+
+
 
     </>
   )
