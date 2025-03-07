@@ -22,6 +22,55 @@ function App() {
         </div>
       </nav>
       {/* navbar ends here */}
+
+      {/* landingpage starts here */}
+
+      <div className='w-full h-auto flex justify-between mt-6 text-center items-center'>
+        <div>
+          <img className='w-[130px]' src="https://www.fnp.com/assets/images/custom/cakes_23/1_Topicon_AllCakes_.jpg" alt="" />
+          <p className='mt-3 font-medium'>All Cakes</p>
+        </div>
+        <div>
+          <img className='w-[130px]' src="https://www.fnp.com/assets/images/custom/cakes_23/2_Topicon_BirthdayCakes_.jpg" alt="" />
+          <p className='mt-3 font-medium'>Birthday Cakes</p>
+        </div>
+        <div>
+          <img className='w-[130px]' src="https://www.fnp.com/assets/images/custom/cakes_23/3_Topicon_Eggless_.jpg" alt="" />
+          <p className='mt-3 font-medium'>Eggless Cakes</p>
+        </div>
+        <div>
+          <img className='w-[130px]' src="https://www.fnp.com/assets/images/custom/cakes_23/4_Topicon_ChocolateCake_.jpg" alt="" />
+          <p className='mt-3 font-medium'>Chocolate Cakes</p>
+        </div>
+        <div>
+          <img className='w-[130px]' src="https://www.fnp.com/assets/images/custom/cakes_23/5_Topicon_Truffle_.jpg" alt="" />
+          <p className='mt-3 font-medium'>Truffle Cakes</p>
+        </div>
+        <div>
+          <img className='w-[130px]' src="https://www.fnp.com/assets/images/custom/cakes_23/6_Topicon_FreshFruits_.jpg" alt="" />
+          <p className='mt-3 font-medium'>MixFruit Cakes</p>
+        </div>
+        <div>
+          <img className='w-[130px]' src="https://www.fnp.com/assets/images/custom/cakes_23/7_Topicon_Blackforest_.jpg" alt="" />
+          <p className='mt-3 font-medium'>Black Forest Cakes</p>
+        </div>
+        <div>
+          <img className='w-[130px]' src="https://www.fnp.com/assets/images/custom/cakes_23/8_Topicon_CakeWithFlowers_.jpg" alt="" />
+          <p className='mt-3 font-medium'> Cakes with Flower</p>
+        </div>
+        <div>
+          <img className='w-[130px]' src="https://www.fnp.com/assets/images/custom/cakes_23/9_Topicon_Bestsellers_.jpg" alt="" />
+          <p className='mt-3 font-medium'>Best Sellers</p>
+        </div>
+        <div>
+          <img className='w-[130px]' src="https://www.fnp.com/assets/images/custom/cakes_23/10_Topicon_SameDay_.jpg" alt="" />
+          <p className='mt-3 font-medium'>Get Same Day</p>
+        </div>
+        
+      </div>
+
+      {/* landingpage ends here */}
+
     </>
   )
 }
