@@ -62,10 +62,7 @@ function App() {
           <img className='w-[130px]' src="https://www.fnp.com/assets/images/custom/cakes_23/9_Topicon_Bestsellers_.jpg" alt="" />
           <p className='mt-3 font-medium'>Best Sellers</p>
         </div>
-        <div>
-          <img className='w-[130px]' src="https://www.fnp.com/assets/images/custom/cakes_23/10_Topicon_SameDay_.jpg" alt="" />
-          <p className='mt-3 font-medium'>Get Same Day</p>
-        </div>
+        
 
       </div>
 
